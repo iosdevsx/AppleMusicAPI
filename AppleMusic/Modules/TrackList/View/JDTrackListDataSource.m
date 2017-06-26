@@ -28,7 +28,7 @@
     
     JDTrack *currentTrack = self.album.tracks[indexPath.row - 1];
     JDTrackCell *cell = [tableView dequeueReusableCellWithIdentifier:NSStringFromClass([JDTrackCell class])];
-    [cell setupWithTrack:currentTrack number:indexPath.row - 1];
+    [cell setupWithTrack:currentTrack number:indexPath.row];
     return cell;
 }
 

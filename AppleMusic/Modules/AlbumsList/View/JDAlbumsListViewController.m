@@ -36,7 +36,7 @@
 #pragma mark - Методы JDAlbumsListViewInput
 
 - (void)setupInitialState {
-    self.navigationItem.title = @"Альбомы";
+    self.navigationItem.title = NSLocalizedString(@"albums-title", nil);
     [self setBackButtonWithTarget:self action:@selector(actionBack)];
     
     self.collectionView.dataSource = self.dataSource;

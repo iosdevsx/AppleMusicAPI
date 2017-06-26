@@ -50,7 +50,7 @@
         [self.view showErrorMessage:error.localizedDescription];
         return;
     }
-    [self.view showErrorMessage:@"Произошла ошибка"];
+    [self.view showErrorMessage:NSLocalizedString(@"raise-error", nil)];
 }
 
 - (void)albumsFetched:(NSArray *)albums {
@@ -63,7 +63,7 @@
         [self.view showErrorMessage:error.localizedDescription];
         return;
     }
-    [self.view showErrorMessage:@"Произошла ошибка"];
+    [self.view showErrorMessage:NSLocalizedString(@"raise-error", nil)];
 }
 
 @end

@@ -64,7 +64,7 @@
 
 - (void)setupInitialState {
     [self.navigationController setNavigationBarTranslucentStyle];
-    self.navigationItem.title = @"Музыканты";
+    self.navigationItem.title = NSLocalizedString(@"artists-title", nil);
     
     [self setupTableView];
     [self setupSearchBar];
@@ -73,7 +73,7 @@
 
 - (void)updateTable:(NSArray *)items {
     if (!items || items.count == 0) {
-        [self showEmptyViewOn:self.containerView title:@"Музыкантов не найдено :("];
+        [self showEmptyViewOn:self.containerView title:NSLocalizedString(@"not-found", nil)];
     }
     
     self.dataSource.items = items;

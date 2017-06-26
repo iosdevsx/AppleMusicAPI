@@ -42,7 +42,7 @@
 
 - (void)setupInitialState {
     [self setBackButtonWithTarget:self action:@selector(actionBack)];
-	self.navigationItem.title = @"Песни";
+	self.navigationItem.title = NSLocalizedString(@"songs-title", nil);
     [self setupTableView];
 }
 
