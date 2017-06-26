@@ -7,27 +7,183 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		05693D1773F4494A73FF0FC1 /* JDArtistsListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 030FDD604D86204EFEDA0326 /* JDArtistsListInteractor.m */; };
+		5902A4E809A2DBA4B1AD2EF7 /* JDAlbumsListAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DBD65735554DD1C2D119D2E /* JDAlbumsListAssembly.m */; };
+		659114230117721C892A0E0B /* JDArtistsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A18B0D01B9CFC2FB057C07 /* JDArtistsListViewController.m */; };
+		69153484F0A713181AAEF466 /* JDArtistsListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D1F162B7BA98952CA88233E /* JDArtistsListRouter.m */; };
+		790D1A81C6DFC36D3237E928 /* JDTrackListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C936E858D74B5F385A35B /* JDTrackListInteractor.m */; };
+		7B7E27C6137B60CF31D425C3 /* JDAlbumsListInteractor.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CFE31795EFBD14D09C73A8 /* JDAlbumsListInteractor.m */; };
+		8A4E4917F651BD1A69818A4D /* JDArtistsListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = E6DA9C2F9B80FEF9211F273E /* JDArtistsListPresenter.m */; };
 		8C1D02301EFFFBF800672D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D022F1EFFFBF800672D01 /* main.m */; };
 		8C1D02331EFFFBF800672D01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D02321EFFFBF800672D01 /* AppDelegate.m */; };
-		8C1D02361EFFFBF800672D01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D02351EFFFBF800672D01 /* ViewController.m */; };
 		8C1D02391EFFFBF800672D01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D02371EFFFBF800672D01 /* Main.storyboard */; };
-		8C1D023C1EFFFBF800672D01 /* AppleMusic.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D023A1EFFFBF800672D01 /* AppleMusic.xcdatamodeld */; };
 		8C1D023E1EFFFBF800672D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D023D1EFFFBF800672D01 /* Assets.xcassets */; };
 		8C1D02411EFFFBF800672D01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D023F1EFFFBF800672D01 /* LaunchScreen.storyboard */; };
+		8C1D03371EFFFE6500672D01 /* JDNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D02491EFFFE6500672D01 /* JDNetworking.m */; };
+		8C1D03801EFFFE6500672D01 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D032F1EFFFE6500672D01 /* NSString+MD5.m */; };
+		8C1D03811EFFFE6500672D01 /* JDRoutes.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03311EFFFE6500672D01 /* JDRoutes.m */; };
+		8C1D03821EFFFE6500672D01 /* JDConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03331EFFFE6500672D01 /* JDConstants.m */; };
+		8C1D03831EFFFE6500672D01 /* JDSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03351EFFFE6500672D01 /* JDSearchBar.m */; };
+		8C1D03841EFFFE6500672D01 /* JDSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D03361EFFFE6500672D01 /* JDSearchBar.xib */; };
+		8C1D038B1EFFFE8200672D01 /* JDMusicService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03861EFFFE8200672D01 /* JDMusicService.m */; };
+		8C1D038C1EFFFE8200672D01 /* JDMusicResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03881EFFFE8200672D01 /* JDMusicResponseObject.m */; };
+		8C1D03971F0000B000672D01 /* UIColor+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03961F0000B000672D01 /* UIColor+Colors.m */; };
+		8C1D039A1F0001E900672D01 /* UIViewController+JD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03991F0001E900672D01 /* UIViewController+JD.m */; };
+		8C1D039D1F00022300672D01 /* JDLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D039C1F00022300672D01 /* JDLoadingView.m */; };
+		8C1D039F1F00022C00672D01 /* JDLoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D039E1F00022C00672D01 /* JDLoadingView.xib */; };
+		8C1D03A21F0009BD00672D01 /* JDArtistsService.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03A11F0009BD00672D01 /* JDArtistsService.m */; };
+		8C1D03A61F0009F500672D01 /* JDArtistsResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03A51F0009F500672D01 /* JDArtistsResponseObject.m */; };
+		8C1D03A91F0011C100672D01 /* JDArtist.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03A81F0011C100672D01 /* JDArtist.m */; };
+		8C1D03AF1F00168400672D01 /* JDArtistsTableDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03AE1F00168400672D01 /* JDArtistsTableDataSource.m */; };
+		8C1D03B21F00172D00672D01 /* JDArtistCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03B11F00172D00672D01 /* JDArtistCell.m */; };
+		8C1D03B41F00173B00672D01 /* JDArtistCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D03B31F00173B00672D01 /* JDArtistCell.xib */; };
+		8C1D03B81F00199B00672D01 /* JDPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03B61F00199B00672D01 /* JDPopup.m */; };
+		8C1D03B91F00199B00672D01 /* JDPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D03B71F00199B00672D01 /* JDPopup.xib */; };
+		8C1D03BD1F002C6200672D01 /* JDEmptyTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03BC1F002C6200672D01 /* JDEmptyTableView.m */; };
+		8C1D03BF1F002C6D00672D01 /* JDEmptyTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D03BE1F002C6D00672D01 /* JDEmptyTableView.xib */; };
+		8C1D03C21F00318900672D01 /* JDAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03C11F00318900672D01 /* JDAlbum.m */; };
+		8C1D03C51F003A9200672D01 /* JDTrack.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03C41F003A9200672D01 /* JDTrack.m */; };
+		8C1D03C81F0048E100672D01 /* JDAlbumCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03C71F0048E100672D01 /* JDAlbumCell.m */; };
+		8C1D03CB1F004C6400672D01 /* JDAlbumsDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03CA1F004C6400672D01 /* JDAlbumsDataSource.m */; };
+		8C1D03CE1F00519300672D01 /* JDTrackListHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03CD1F00519300672D01 /* JDTrackListHeaderCell.m */; };
+		8C1D03D01F00519E00672D01 /* JDTrackListHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D03CF1F00519E00672D01 /* JDTrackListHeaderCell.xib */; };
+		8C1D03D31F0051BC00672D01 /* JDTrackCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03D21F0051BC00672D01 /* JDTrackCell.m */; };
+		8C1D03D51F0051C400672D01 /* JDTrackCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D03D41F0051C400672D01 /* JDTrackCell.xib */; };
+		8C1D03D91F00DA6A00672D01 /* JDAlbumsFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03D81F00DA6A00672D01 /* JDAlbumsFlowLayout.m */; };
+		8C1D03DC1F00DD3100672D01 /* UINavigationController+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03DB1F00DD3100672D01 /* UINavigationController+Style.m */; };
+		8C1D03DF1F00DF0C00672D01 /* JDTrackListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03DE1F00DF0C00672D01 /* JDTrackListDataSource.m */; };
+		A317C9F98EB4505DAD4C1A4F /* libPods-AppleMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD0389A94EBC9199E14B5B /* libPods-AppleMusic.a */; };
+		A49476170D0614D5D6BA2E4A /* JDTrackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A4389D5BF04EEBB208DDC8 /* JDTrackListViewController.m */; };
+		B6EADE97935889D6CB22BD37 /* JDAlbumsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847CEECFBA88B3544B17219 /* JDAlbumsListViewController.m */; };
+		CEB52BC24B0ED9864016AAD6 /* JDTrackListAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = E7146F67B3189D0D44A69343 /* JDTrackListAssembly.m */; };
+		CEFCE53B2F48592D89CB63CA /* JDAlbumsListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E031F53EAA2815E28A72B1 /* JDAlbumsListRouter.m */; };
+		DFCB4A2AA49D8D88687AEF9B /* JDTrackListRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D3C0A3229DB7CB2BF01D337 /* JDTrackListRouter.m */; };
+		EA747B6F0FFE606A4152960A /* JDArtistsListAssembly.m in Sources */ = {isa = PBXBuildFile; fileRef = AA00D32351DFC60615A7622E /* JDArtistsListAssembly.m */; };
+		F654A70D579AA3144A47E23D /* JDTrackListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = CF0D2FC1360BF45FBFB71AEC /* JDTrackListPresenter.m */; };
+		FF99213D5857F70AEA0FD166 /* JDAlbumsListPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 61032D1E371643B4961D0493 /* JDAlbumsListPresenter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00F18396AC3AD562B5832D72 /* JDTrackListPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListPresenter.h; sourceTree = "<group>"; };
+		030FDD604D86204EFEDA0326 /* JDArtistsListInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDArtistsListInteractor.m; sourceTree = "<group>"; };
+		03CFE31795EFBD14D09C73A8 /* JDAlbumsListInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDAlbumsListInteractor.m; sourceTree = "<group>"; };
+		197143B46052FC90C2C71C5B /* Pods-AppleMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppleMusic/Pods-AppleMusic.release.xcconfig"; sourceTree = "<group>"; };
+		1C3BAD4B82CAC074DDA41667 /* JDAlbumsListPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListPresenter.h; sourceTree = "<group>"; };
+		1EC67768BD2F39DD104549DC /* JDAlbumsListInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListInteractorInput.h; sourceTree = "<group>"; };
+		20842F7C7B186DD8BBDC6AA3 /* JDAlbumsListInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListInteractor.h; sourceTree = "<group>"; };
+		222D0DB2567190C81D774043 /* JDArtistsListModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListModuleInput.h; sourceTree = "<group>"; };
+		2CDDF08EE9D62C4C4DCD2731 /* JDTrackListInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListInteractorOutput.h; sourceTree = "<group>"; };
+		305593A37AD927BD75AD2CA0 /* JDTrackListRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListRouterInput.h; sourceTree = "<group>"; };
+		31A5745752A155908082F799 /* JDArtistsListInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListInteractor.h; sourceTree = "<group>"; };
+		335F7432BFF67DC93E50777C /* JDArtistsListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListViewController.h; sourceTree = "<group>"; };
+		349085A048D07CB29EB8D1A2 /* JDArtistsListInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListInteractorOutput.h; sourceTree = "<group>"; };
+		34A18B0D01B9CFC2FB057C07 /* JDArtistsListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDArtistsListViewController.m; sourceTree = "<group>"; };
+		3F4C936E858D74B5F385A35B /* JDTrackListInteractor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDTrackListInteractor.m; sourceTree = "<group>"; };
+		427D2F1647486D8F1618666A /* JDAlbumsListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListViewController.h; sourceTree = "<group>"; };
+		5DBD65735554DD1C2D119D2E /* JDAlbumsListAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDAlbumsListAssembly.m; sourceTree = "<group>"; };
+		5DF1A1307BF86355B5034E3D /* JDArtistsListRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListRouterInput.h; sourceTree = "<group>"; };
+		5F4DB09480AD1882FD8E4FBA /* JDTrackListInteractor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListInteractor.h; sourceTree = "<group>"; };
+		5F7B153DC2F3DF8948CF5D7D /* JDAlbumsListViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListViewOutput.h; sourceTree = "<group>"; };
+		61032D1E371643B4961D0493 /* JDAlbumsListPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDAlbumsListPresenter.m; sourceTree = "<group>"; };
+		665318252F2E639166D878A2 /* JDTrackListViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListViewController.h; sourceTree = "<group>"; };
+		674F970D0912858ED01247DB /* JDArtistsListViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListViewInput.h; sourceTree = "<group>"; };
+		6AEDF0F832394C8CF4CE83A2 /* JDArtistsListRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListRouter.h; sourceTree = "<group>"; };
+		752553525268CFAE64B268EB /* JDTrackListInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListInteractorInput.h; sourceTree = "<group>"; };
+		7847CEECFBA88B3544B17219 /* JDAlbumsListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDAlbumsListViewController.m; sourceTree = "<group>"; };
+		816DF2836D2D9A98778763A7 /* JDAlbumsListRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListRouter.h; sourceTree = "<group>"; };
+		81B08FF03076AE3DD98919A5 /* JDTrackListViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListViewOutput.h; sourceTree = "<group>"; };
+		86A6809B851D13C643B53CE8 /* JDTrackListViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListViewInput.h; sourceTree = "<group>"; };
+		876269B40320268E8049E850 /* JDArtistsListViewOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListViewOutput.h; sourceTree = "<group>"; };
+		88C1C64B99AE2CD326A532A2 /* JDTrackListRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListRouter.h; sourceTree = "<group>"; };
 		8C1D022B1EFFFBF800672D01 /* AppleMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1D022F1EFFFBF800672D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8C1D02311EFFFBF800672D01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8C1D02321EFFFBF800672D01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8C1D02341EFFFBF800672D01 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8C1D02351EFFFBF800672D01 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8C1D02381EFFFBF800672D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8C1D023B1EFFFBF800672D01 /* AppleMusic.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AppleMusic.xcdatamodel; sourceTree = "<group>"; };
 		8C1D023D1EFFFBF800672D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C1D02401EFFFBF800672D01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C1D02421EFFFBF800672D01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C1D02481EFFFE6500672D01 /* JDNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDNetworking.h; sourceTree = "<group>"; };
+		8C1D02491EFFFE6500672D01 /* JDNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDNetworking.m; sourceTree = "<group>"; };
+		8C1D032E1EFFFE6500672D01 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		8C1D032F1EFFFE6500672D01 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+		8C1D03301EFFFE6500672D01 /* JDRoutes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDRoutes.h; sourceTree = "<group>"; };
+		8C1D03311EFFFE6500672D01 /* JDRoutes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDRoutes.m; sourceTree = "<group>"; };
+		8C1D03321EFFFE6500672D01 /* JDConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDConstants.h; sourceTree = "<group>"; };
+		8C1D03331EFFFE6500672D01 /* JDConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDConstants.m; sourceTree = "<group>"; };
+		8C1D03341EFFFE6500672D01 /* JDSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDSearchBar.h; sourceTree = "<group>"; };
+		8C1D03351EFFFE6500672D01 /* JDSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDSearchBar.m; sourceTree = "<group>"; };
+		8C1D03361EFFFE6500672D01 /* JDSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDSearchBar.xib; sourceTree = "<group>"; };
+		8C1D03851EFFFE8200672D01 /* JDMusicService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDMusicService.h; path = AppleMusic/Modules/JDMusicService.h; sourceTree = "<group>"; };
+		8C1D03861EFFFE8200672D01 /* JDMusicService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDMusicService.m; path = AppleMusic/Modules/JDMusicService.m; sourceTree = "<group>"; };
+		8C1D03871EFFFE8200672D01 /* JDMusicResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDMusicResponseObject.h; path = AppleMusic/Modules/JDMusicResponseObject.h; sourceTree = "<group>"; };
+		8C1D03881EFFFE8200672D01 /* JDMusicResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDMusicResponseObject.m; path = AppleMusic/Modules/JDMusicResponseObject.m; sourceTree = "<group>"; };
+		8C1D03951F0000B000672D01 /* UIColor+Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colors.h"; sourceTree = "<group>"; };
+		8C1D03961F0000B000672D01 /* UIColor+Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colors.m"; sourceTree = "<group>"; };
+		8C1D03981F0001E900672D01 /* UIViewController+JD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+JD.h"; sourceTree = "<group>"; };
+		8C1D03991F0001E900672D01 /* UIViewController+JD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+JD.m"; sourceTree = "<group>"; };
+		8C1D039B1F00022300672D01 /* JDLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDLoadingView.h; sourceTree = "<group>"; };
+		8C1D039C1F00022300672D01 /* JDLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDLoadingView.m; sourceTree = "<group>"; };
+		8C1D039E1F00022C00672D01 /* JDLoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDLoadingView.xib; sourceTree = "<group>"; };
+		8C1D03A01F0009BD00672D01 /* JDArtistsService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDArtistsService.h; sourceTree = "<group>"; };
+		8C1D03A11F0009BD00672D01 /* JDArtistsService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDArtistsService.m; sourceTree = "<group>"; };
+		8C1D03A41F0009F500672D01 /* JDArtistsResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDArtistsResponseObject.h; sourceTree = "<group>"; };
+		8C1D03A51F0009F500672D01 /* JDArtistsResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDArtistsResponseObject.m; sourceTree = "<group>"; };
+		8C1D03A71F0011C100672D01 /* JDArtist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDArtist.h; sourceTree = "<group>"; };
+		8C1D03A81F0011C100672D01 /* JDArtist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDArtist.m; sourceTree = "<group>"; };
+		8C1D03AD1F00168400672D01 /* JDArtistsTableDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDArtistsTableDataSource.h; sourceTree = "<group>"; };
+		8C1D03AE1F00168400672D01 /* JDArtistsTableDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDArtistsTableDataSource.m; sourceTree = "<group>"; };
+		8C1D03B01F00172D00672D01 /* JDArtistCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDArtistCell.h; sourceTree = "<group>"; };
+		8C1D03B11F00172D00672D01 /* JDArtistCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDArtistCell.m; sourceTree = "<group>"; };
+		8C1D03B31F00173B00672D01 /* JDArtistCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDArtistCell.xib; sourceTree = "<group>"; };
+		8C1D03B51F00199B00672D01 /* JDPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDPopup.h; sourceTree = "<group>"; };
+		8C1D03B61F00199B00672D01 /* JDPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDPopup.m; sourceTree = "<group>"; };
+		8C1D03B71F00199B00672D01 /* JDPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDPopup.xib; sourceTree = "<group>"; };
+		8C1D03BA1F0029EF00672D01 /* JDAlbumsListModuleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListModuleFactory.h; sourceTree = "<group>"; };
+		8C1D03BB1F002C6200672D01 /* JDEmptyTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDEmptyTableView.h; sourceTree = "<group>"; };
+		8C1D03BC1F002C6200672D01 /* JDEmptyTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDEmptyTableView.m; sourceTree = "<group>"; };
+		8C1D03BE1F002C6D00672D01 /* JDEmptyTableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDEmptyTableView.xib; sourceTree = "<group>"; };
+		8C1D03C01F00318900672D01 /* JDAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAlbum.h; sourceTree = "<group>"; };
+		8C1D03C11F00318900672D01 /* JDAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAlbum.m; sourceTree = "<group>"; };
+		8C1D03C31F003A9200672D01 /* JDTrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTrack.h; sourceTree = "<group>"; };
+		8C1D03C41F003A9200672D01 /* JDTrack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTrack.m; sourceTree = "<group>"; };
+		8C1D03C61F0048E100672D01 /* JDAlbumCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAlbumCell.h; sourceTree = "<group>"; };
+		8C1D03C71F0048E100672D01 /* JDAlbumCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAlbumCell.m; sourceTree = "<group>"; };
+		8C1D03C91F004C6400672D01 /* JDAlbumsDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAlbumsDataSource.h; sourceTree = "<group>"; };
+		8C1D03CA1F004C6400672D01 /* JDAlbumsDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAlbumsDataSource.m; sourceTree = "<group>"; };
+		8C1D03CC1F00519300672D01 /* JDTrackListHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTrackListHeaderCell.h; sourceTree = "<group>"; };
+		8C1D03CD1F00519300672D01 /* JDTrackListHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTrackListHeaderCell.m; sourceTree = "<group>"; };
+		8C1D03CF1F00519E00672D01 /* JDTrackListHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDTrackListHeaderCell.xib; sourceTree = "<group>"; };
+		8C1D03D11F0051BC00672D01 /* JDTrackCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTrackCell.h; sourceTree = "<group>"; };
+		8C1D03D21F0051BC00672D01 /* JDTrackCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTrackCell.m; sourceTree = "<group>"; };
+		8C1D03D41F0051C400672D01 /* JDTrackCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JDTrackCell.xib; sourceTree = "<group>"; };
+		8C1D03D61F00582E00672D01 /* JDTrackListModuleFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDTrackListModuleFactory.h; sourceTree = "<group>"; };
+		8C1D03D71F00DA6A00672D01 /* JDAlbumsFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDAlbumsFlowLayout.h; sourceTree = "<group>"; };
+		8C1D03D81F00DA6A00672D01 /* JDAlbumsFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDAlbumsFlowLayout.m; sourceTree = "<group>"; };
+		8C1D03DA1F00DD3100672D01 /* UINavigationController+Style.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Style.h"; sourceTree = "<group>"; };
+		8C1D03DB1F00DD3100672D01 /* UINavigationController+Style.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Style.m"; sourceTree = "<group>"; };
+		8C1D03DD1F00DF0C00672D01 /* JDTrackListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDTrackListDataSource.h; sourceTree = "<group>"; };
+		8C1D03DE1F00DF0C00672D01 /* JDTrackListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDTrackListDataSource.m; sourceTree = "<group>"; };
+		928A62C3F8D131177CF0D089 /* JDAlbumsListRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListRouterInput.h; sourceTree = "<group>"; };
+		9522C1931FEF24D827521304 /* JDArtistsListInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListInteractorInput.h; sourceTree = "<group>"; };
+		98B6D45A00D4007D1D412DD1 /* JDAlbumsListModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListModuleInput.h; sourceTree = "<group>"; };
+		98E62F7202B1722A50B9AD29 /* JDTrackListAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListAssembly.h; sourceTree = "<group>"; };
+		99BD0389A94EBC9199E14B5B /* libPods-AppleMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppleMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D1F162B7BA98952CA88233E /* JDArtistsListRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDArtistsListRouter.m; sourceTree = "<group>"; };
+		9D3C0A3229DB7CB2BF01D337 /* JDTrackListRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDTrackListRouter.m; sourceTree = "<group>"; };
+		AA00D32351DFC60615A7622E /* JDArtistsListAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDArtistsListAssembly.m; sourceTree = "<group>"; };
+		B43E373C5D2867DA79A960B0 /* JDAlbumsListViewInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListViewInput.h; sourceTree = "<group>"; };
+		CF0D2FC1360BF45FBFB71AEC /* JDTrackListPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDTrackListPresenter.m; sourceTree = "<group>"; };
+		D3E031F53EAA2815E28A72B1 /* JDAlbumsListRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDAlbumsListRouter.m; sourceTree = "<group>"; };
+		D4AA77BF1D01E000A8953DFD /* JDAlbumsListAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListAssembly.h; sourceTree = "<group>"; };
+		D4FF6F43994633DAACBE1EE2 /* JDArtistsListPresenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListPresenter.h; sourceTree = "<group>"; };
+		D60FE67759AE3336DE405F8D /* JDArtistsListAssembly.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListAssembly.h; sourceTree = "<group>"; };
+		DC9C69C3A6F1A6C0F60BCC09 /* JDTrackListModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDTrackListModuleInput.h; sourceTree = "<group>"; };
+		DF14950396409E52C0151EE7 /* Pods-AppleMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppleMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppleMusic/Pods-AppleMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		E1A4389D5BF04EEBB208DDC8 /* JDTrackListViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDTrackListViewController.m; sourceTree = "<group>"; };
+		E6DA9C2F9B80FEF9211F273E /* JDArtistsListPresenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDArtistsListPresenter.m; sourceTree = "<group>"; };
+		E7146F67B3189D0D44A69343 /* JDTrackListAssembly.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JDTrackListAssembly.m; sourceTree = "<group>"; };
+		F162E432F9EE90A65633E428 /* JDAlbumsListInteractorOutput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListInteractorOutput.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +191,164 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A317C9F98EB4505DAD4C1A4F /* libPods-AppleMusic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		075369071ADB48DB4D74AF72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D03B01F00172D00672D01 /* JDArtistCell.h */,
+				8C1D03B11F00172D00672D01 /* JDArtistCell.m */,
+				8C1D03B31F00173B00672D01 /* JDArtistCell.xib */,
+				674F970D0912858ED01247DB /* JDArtistsListViewInput.h */,
+				876269B40320268E8049E850 /* JDArtistsListViewOutput.h */,
+				335F7432BFF67DC93E50777C /* JDArtistsListViewController.h */,
+				34A18B0D01B9CFC2FB057C07 /* JDArtistsListViewController.m */,
+				8C1D03AD1F00168400672D01 /* JDArtistsTableDataSource.h */,
+				8C1D03AE1F00168400672D01 /* JDArtistsTableDataSource.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18C295273A80C47DBDE6C622 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				928A62C3F8D131177CF0D089 /* JDAlbumsListRouterInput.h */,
+				816DF2836D2D9A98778763A7 /* JDAlbumsListRouter.h */,
+				D3E031F53EAA2815E28A72B1 /* JDAlbumsListRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		2F7B385DA8743CE0CD6BE4A1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				5DF1A1307BF86355B5034E3D /* JDArtistsListRouterInput.h */,
+				6AEDF0F832394C8CF4CE83A2 /* JDArtistsListRouter.h */,
+				9D1F162B7BA98952CA88233E /* JDArtistsListRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		31786AD4C359A8D1BAA908D9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D03CC1F00519300672D01 /* JDTrackListHeaderCell.h */,
+				8C1D03CD1F00519300672D01 /* JDTrackListHeaderCell.m */,
+				8C1D03CF1F00519E00672D01 /* JDTrackListHeaderCell.xib */,
+				8C1D03D11F0051BC00672D01 /* JDTrackCell.h */,
+				8C1D03D21F0051BC00672D01 /* JDTrackCell.m */,
+				8C1D03D41F0051C400672D01 /* JDTrackCell.xib */,
+				86A6809B851D13C643B53CE8 /* JDTrackListViewInput.h */,
+				81B08FF03076AE3DD98919A5 /* JDTrackListViewOutput.h */,
+				665318252F2E639166D878A2 /* JDTrackListViewController.h */,
+				E1A4389D5BF04EEBB208DDC8 /* JDTrackListViewController.m */,
+				8C1D03DD1F00DF0C00672D01 /* JDTrackListDataSource.h */,
+				8C1D03DE1F00DF0C00672D01 /* JDTrackListDataSource.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		34619BB750FCED51E914583C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B43E373C5D2867DA79A960B0 /* JDAlbumsListViewInput.h */,
+				5F7B153DC2F3DF8948CF5D7D /* JDAlbumsListViewOutput.h */,
+				427D2F1647486D8F1618666A /* JDAlbumsListViewController.h */,
+				7847CEECFBA88B3544B17219 /* JDAlbumsListViewController.m */,
+				8C1D03C91F004C6400672D01 /* JDAlbumsDataSource.h */,
+				8C1D03CA1F004C6400672D01 /* JDAlbumsDataSource.m */,
+				8C1D03D71F00DA6A00672D01 /* JDAlbumsFlowLayout.h */,
+				8C1D03D81F00DA6A00672D01 /* JDAlbumsFlowLayout.m */,
+				8C1D03C61F0048E100672D01 /* JDAlbumCell.h */,
+				8C1D03C71F0048E100672D01 /* JDAlbumCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3A6D96409993883A1B622A2B /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9522C1931FEF24D827521304 /* JDArtistsListInteractorInput.h */,
+				349085A048D07CB29EB8D1A2 /* JDArtistsListInteractorOutput.h */,
+				31A5745752A155908082F799 /* JDArtistsListInteractor.h */,
+				030FDD604D86204EFEDA0326 /* JDArtistsListInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3A8CE74C76D8E74EE3A9F789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99BD0389A94EBC9199E14B5B /* libPods-AppleMusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DDF7C60E0607B815A02D640 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				CD0996C118158499B68C710B /* ArtistsList */,
+				650776ACF1100438A7A1F2AC /* AlbumsList */,
+				F0BE2961CF332B4A8A43D3CC /* TrackList */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		45E4FF6A4A2E35505B7F3A4B /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D4AA77BF1D01E000A8953DFD /* JDAlbumsListAssembly.h */,
+				5DBD65735554DD1C2D119D2E /* JDAlbumsListAssembly.m */,
+				8C1D03BA1F0029EF00672D01 /* JDAlbumsListModuleFactory.h */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		4918C87E7FB6E1E98C3F4D2F /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				305593A37AD927BD75AD2CA0 /* JDTrackListRouterInput.h */,
+				88C1C64B99AE2CD326A532A2 /* JDTrackListRouter.h */,
+				9D3C0A3229DB7CB2BF01D337 /* JDTrackListRouter.m */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		650776ACF1100438A7A1F2AC /* AlbumsList */ = {
+			isa = PBXGroup;
+			children = (
+				45E4FF6A4A2E35505B7F3A4B /* Assembly */,
+				34619BB750FCED51E914583C /* View */,
+				EDD687107D96DC145480193C /* Presenter */,
+				A231483B3E9B8F8E7788FC8F /* Interactor */,
+				18C295273A80C47DBDE6C622 /* Router */,
+			);
+			path = AlbumsList;
+			sourceTree = "<group>";
+		};
+		829C8798B81AD6CAA2995129 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				752553525268CFAE64B268EB /* JDTrackListInteractorInput.h */,
+				2CDDF08EE9D62C4C4DCD2731 /* JDTrackListInteractorOutput.h */,
+				5F4DB09480AD1882FD8E4FBA /* JDTrackListInteractor.h */,
+				3F4C936E858D74B5F385A35B /* JDTrackListInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
 		8C1D02221EFFFBF800672D01 = {
 			isa = PBXGroup;
 			children = (
 				8C1D022D1EFFFBF800672D01 /* AppleMusic */,
 				8C1D022C1EFFFBF800672D01 /* Products */,
+				9A1D5969318EF0333E4BE6DA /* Pods */,
+				3A8CE74C76D8E74EE3A9F789 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +365,11 @@
 			children = (
 				8C1D02311EFFFBF800672D01 /* AppDelegate.h */,
 				8C1D02321EFFFBF800672D01 /* AppDelegate.m */,
-				8C1D02341EFFFBF800672D01 /* ViewController.h */,
-				8C1D02351EFFFBF800672D01 /* ViewController.m */,
-				8C1D02371EFFFBF800672D01 /* Main.storyboard */,
-				8C1D023D1EFFFBF800672D01 /* Assets.xcassets */,
-				8C1D023F1EFFFBF800672D01 /* LaunchScreen.storyboard */,
-				8C1D02421EFFFBF800672D01 /* Info.plist */,
-				8C1D023A1EFFFBF800672D01 /* AppleMusic.xcdatamodeld */,
+				3DDF7C60E0607B815A02D640 /* Modules */,
+				8C1D03901EFFFE9500672D01 /* Network */,
+				8C1D03921EFFFEB000672D01 /* Categories */,
+				8C1D03941EFFFEC500672D01 /* Common */,
+				8C1D03931EFFFEBA00672D01 /* Components */,
 				8C1D022E1EFFFBF800672D01 /* Supporting Files */,
 			);
 			path = AppleMusic;
@@ -78,8 +379,209 @@
 			isa = PBXGroup;
 			children = (
 				8C1D022F1EFFFBF800672D01 /* main.m */,
+				8C1D02421EFFFBF800672D01 /* Info.plist */,
+				8C1D02371EFFFBF800672D01 /* Main.storyboard */,
+				8C1D023F1EFFFBF800672D01 /* LaunchScreen.storyboard */,
+				8C1D023D1EFFFBF800672D01 /* Assets.xcassets */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C1D038E1EFFFE8900672D01 /* MusicService */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D03851EFFFE8200672D01 /* JDMusicService.h */,
+				8C1D03861EFFFE8200672D01 /* JDMusicService.m */,
+				8C1D03871EFFFE8200672D01 /* JDMusicResponseObject.h */,
+				8C1D03881EFFFE8200672D01 /* JDMusicResponseObject.m */,
+			);
+			name = MusicService;
+			sourceTree = "<group>";
+		};
+		8C1D038F1EFFFE9000672D01 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D03A31F0009C000672D01 /* ArtistsService */,
+				8C1D038E1EFFFE8900672D01 /* MusicService */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		8C1D03901EFFFE9500672D01 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D03301EFFFE6500672D01 /* JDRoutes.h */,
+				8C1D03311EFFFE6500672D01 /* JDRoutes.m */,
+				8C1D02481EFFFE6500672D01 /* JDNetworking.h */,
+				8C1D02491EFFFE6500672D01 /* JDNetworking.m */,
+				8C1D03911EFFFEA200672D01 /* Models */,
+				8C1D038F1EFFFE9000672D01 /* Services */,
+			);
+			name = Network;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8C1D03911EFFFEA200672D01 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D03C31F003A9200672D01 /* JDTrack.h */,
+				8C1D03C41F003A9200672D01 /* JDTrack.m */,
+				8C1D03A71F0011C100672D01 /* JDArtist.h */,
+				8C1D03A81F0011C100672D01 /* JDArtist.m */,
+				8C1D03C01F00318900672D01 /* JDAlbum.h */,
+				8C1D03C11F00318900672D01 /* JDAlbum.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		8C1D03921EFFFEB000672D01 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D032E1EFFFE6500672D01 /* NSString+MD5.h */,
+				8C1D032F1EFFFE6500672D01 /* NSString+MD5.m */,
+				8C1D03951F0000B000672D01 /* UIColor+Colors.h */,
+				8C1D03961F0000B000672D01 /* UIColor+Colors.m */,
+				8C1D03981F0001E900672D01 /* UIViewController+JD.h */,
+				8C1D03991F0001E900672D01 /* UIViewController+JD.m */,
+				8C1D03DA1F00DD3100672D01 /* UINavigationController+Style.h */,
+				8C1D03DB1F00DD3100672D01 /* UINavigationController+Style.m */,
+			);
+			name = Categories;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8C1D03931EFFFEBA00672D01 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D03B51F00199B00672D01 /* JDPopup.h */,
+				8C1D03B61F00199B00672D01 /* JDPopup.m */,
+				8C1D03B71F00199B00672D01 /* JDPopup.xib */,
+				8C1D03341EFFFE6500672D01 /* JDSearchBar.h */,
+				8C1D03351EFFFE6500672D01 /* JDSearchBar.m */,
+				8C1D03361EFFFE6500672D01 /* JDSearchBar.xib */,
+				8C1D039B1F00022300672D01 /* JDLoadingView.h */,
+				8C1D039C1F00022300672D01 /* JDLoadingView.m */,
+				8C1D039E1F00022C00672D01 /* JDLoadingView.xib */,
+				8C1D03BB1F002C6200672D01 /* JDEmptyTableView.h */,
+				8C1D03BC1F002C6200672D01 /* JDEmptyTableView.m */,
+				8C1D03BE1F002C6D00672D01 /* JDEmptyTableView.xib */,
+			);
+			name = Components;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8C1D03941EFFFEC500672D01 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D03321EFFFE6500672D01 /* JDConstants.h */,
+				8C1D03331EFFFE6500672D01 /* JDConstants.m */,
+			);
+			name = Common;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8C1D03A31F0009C000672D01 /* ArtistsService */ = {
+			isa = PBXGroup;
+			children = (
+				8C1D03A01F0009BD00672D01 /* JDArtistsService.h */,
+				8C1D03A11F0009BD00672D01 /* JDArtistsService.m */,
+				8C1D03A41F0009F500672D01 /* JDArtistsResponseObject.h */,
+				8C1D03A51F0009F500672D01 /* JDArtistsResponseObject.m */,
+			);
+			name = ArtistsService;
+			sourceTree = "<group>";
+		};
+		9A1D5969318EF0333E4BE6DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF14950396409E52C0151EE7 /* Pods-AppleMusic.debug.xcconfig */,
+				197143B46052FC90C2C71C5B /* Pods-AppleMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A231483B3E9B8F8E7788FC8F /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				1EC67768BD2F39DD104549DC /* JDAlbumsListInteractorInput.h */,
+				F162E432F9EE90A65633E428 /* JDAlbumsListInteractorOutput.h */,
+				20842F7C7B186DD8BBDC6AA3 /* JDAlbumsListInteractor.h */,
+				03CFE31795EFBD14D09C73A8 /* JDAlbumsListInteractor.m */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		BF32339AB7DF7B412EF8208E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				DC9C69C3A6F1A6C0F60BCC09 /* JDTrackListModuleInput.h */,
+				00F18396AC3AD562B5832D72 /* JDTrackListPresenter.h */,
+				CF0D2FC1360BF45FBFB71AEC /* JDTrackListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		CD0996C118158499B68C710B /* ArtistsList */ = {
+			isa = PBXGroup;
+			children = (
+				ECC18305BB1473CDC28D7ED0 /* Assembly */,
+				075369071ADB48DB4D74AF72 /* View */,
+				F5ADFA87199A33DBE138F2A1 /* Presenter */,
+				3A6D96409993883A1B622A2B /* Interactor */,
+				2F7B385DA8743CE0CD6BE4A1 /* Router */,
+			);
+			path = ArtistsList;
+			sourceTree = "<group>";
+		};
+		ECC18305BB1473CDC28D7ED0 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				D60FE67759AE3336DE405F8D /* JDArtistsListAssembly.h */,
+				AA00D32351DFC60615A7622E /* JDArtistsListAssembly.m */,
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		EDD687107D96DC145480193C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				98B6D45A00D4007D1D412DD1 /* JDAlbumsListModuleInput.h */,
+				1C3BAD4B82CAC074DDA41667 /* JDAlbumsListPresenter.h */,
+				61032D1E371643B4961D0493 /* JDAlbumsListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		F0BE2961CF332B4A8A43D3CC /* TrackList */ = {
+			isa = PBXGroup;
+			children = (
+				FF6DFBD711BA490CE7F8E3A2 /* Assembly */,
+				31786AD4C359A8D1BAA908D9 /* View */,
+				BF32339AB7DF7B412EF8208E /* Presenter */,
+				829C8798B81AD6CAA2995129 /* Interactor */,
+				4918C87E7FB6E1E98C3F4D2F /* Router */,
+			);
+			path = TrackList;
+			sourceTree = "<group>";
+		};
+		F5ADFA87199A33DBE138F2A1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				222D0DB2567190C81D774043 /* JDArtistsListModuleInput.h */,
+				D4FF6F43994633DAACBE1EE2 /* JDArtistsListPresenter.h */,
+				E6DA9C2F9B80FEF9211F273E /* JDArtistsListPresenter.m */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		FF6DFBD711BA490CE7F8E3A2 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+				98E62F7202B1722A50B9AD29 /* JDTrackListAssembly.h */,
+				E7146F67B3189D0D44A69343 /* JDTrackListAssembly.m */,
+				8C1D03D61F00582E00672D01 /* JDTrackListModuleFactory.h */,
+			);
+			path = Assembly;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,9 +591,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C1D02451EFFFBF800672D01 /* Build configuration list for PBXNativeTarget "AppleMusic" */;
 			buildPhases = (
+				23C63EBE8AC8B74734EE0D21 /* [CP] Check Pods Manifest.lock */,
 				8C1D02271EFFFBF800672D01 /* Sources */,
 				8C1D02281EFFFBF800672D01 /* Frameworks */,
 				8C1D02291EFFFBF800672D01 /* Resources */,
+				6DC2CE01B729FB003FCFB851 /* [CP] Embed Pods Frameworks */,
+				24CE3B80545B568FCF8D9BD9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -141,23 +646,117 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C1D03D01F00519E00672D01 /* JDTrackListHeaderCell.xib in Resources */,
+				8C1D03B41F00173B00672D01 /* JDArtistCell.xib in Resources */,
 				8C1D02411EFFFBF800672D01 /* LaunchScreen.storyboard in Resources */,
+				8C1D03D51F0051C400672D01 /* JDTrackCell.xib in Resources */,
+				8C1D03841EFFFE6500672D01 /* JDSearchBar.xib in Resources */,
+				8C1D039F1F00022C00672D01 /* JDLoadingView.xib in Resources */,
 				8C1D023E1EFFFBF800672D01 /* Assets.xcassets in Resources */,
+				8C1D03BF1F002C6D00672D01 /* JDEmptyTableView.xib in Resources */,
+				8C1D03B91F00199B00672D01 /* JDPopup.xib in Resources */,
 				8C1D02391EFFFBF800672D01 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23C63EBE8AC8B74734EE0D21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24CE3B80545B568FCF8D9BD9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppleMusic/Pods-AppleMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DC2CE01B729FB003FCFB851 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppleMusic/Pods-AppleMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C1D02271EFFFBF800672D01 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C1D02361EFFFBF800672D01 /* ViewController.m in Sources */,
 				8C1D02331EFFFBF800672D01 /* AppDelegate.m in Sources */,
-				8C1D023C1EFFFBF800672D01 /* AppleMusic.xcdatamodeld in Sources */,
+				8C1D03DC1F00DD3100672D01 /* UINavigationController+Style.m in Sources */,
+				8C1D03A61F0009F500672D01 /* JDArtistsResponseObject.m in Sources */,
+				8C1D03C21F00318900672D01 /* JDAlbum.m in Sources */,
 				8C1D02301EFFFBF800672D01 /* main.m in Sources */,
+				EA747B6F0FFE606A4152960A /* JDArtistsListAssembly.m in Sources */,
+				8C1D03821EFFFE6500672D01 /* JDConstants.m in Sources */,
+				8C1D03831EFFFE6500672D01 /* JDSearchBar.m in Sources */,
+				8C1D03A21F0009BD00672D01 /* JDArtistsService.m in Sources */,
+				8C1D03D31F0051BC00672D01 /* JDTrackCell.m in Sources */,
+				8C1D03AF1F00168400672D01 /* JDArtistsTableDataSource.m in Sources */,
+				8C1D03DF1F00DF0C00672D01 /* JDTrackListDataSource.m in Sources */,
+				659114230117721C892A0E0B /* JDArtistsListViewController.m in Sources */,
+				8C1D03371EFFFE6500672D01 /* JDNetworking.m in Sources */,
+				8C1D03D91F00DA6A00672D01 /* JDAlbumsFlowLayout.m in Sources */,
+				8C1D038C1EFFFE8200672D01 /* JDMusicResponseObject.m in Sources */,
+				8C1D038B1EFFFE8200672D01 /* JDMusicService.m in Sources */,
+				8C1D03CB1F004C6400672D01 /* JDAlbumsDataSource.m in Sources */,
+				8C1D03C51F003A9200672D01 /* JDTrack.m in Sources */,
+				8A4E4917F651BD1A69818A4D /* JDArtistsListPresenter.m in Sources */,
+				8C1D03B21F00172D00672D01 /* JDArtistCell.m in Sources */,
+				8C1D03BD1F002C6200672D01 /* JDEmptyTableView.m in Sources */,
+				05693D1773F4494A73FF0FC1 /* JDArtistsListInteractor.m in Sources */,
+				8C1D03C81F0048E100672D01 /* JDAlbumCell.m in Sources */,
+				69153484F0A713181AAEF466 /* JDArtistsListRouter.m in Sources */,
+				8C1D03971F0000B000672D01 /* UIColor+Colors.m in Sources */,
+				8C1D03A91F0011C100672D01 /* JDArtist.m in Sources */,
+				8C1D039D1F00022300672D01 /* JDLoadingView.m in Sources */,
+				8C1D039A1F0001E900672D01 /* UIViewController+JD.m in Sources */,
+				8C1D03B81F00199B00672D01 /* JDPopup.m in Sources */,
+				8C1D03801EFFFE6500672D01 /* NSString+MD5.m in Sources */,
+				8C1D03811EFFFE6500672D01 /* JDRoutes.m in Sources */,
+				5902A4E809A2DBA4B1AD2EF7 /* JDAlbumsListAssembly.m in Sources */,
+				B6EADE97935889D6CB22BD37 /* JDAlbumsListViewController.m in Sources */,
+				FF99213D5857F70AEA0FD166 /* JDAlbumsListPresenter.m in Sources */,
+				7B7E27C6137B60CF31D425C3 /* JDAlbumsListInteractor.m in Sources */,
+				CEFCE53B2F48592D89CB63CA /* JDAlbumsListRouter.m in Sources */,
+				8C1D03CE1F00519300672D01 /* JDTrackListHeaderCell.m in Sources */,
+				CEB52BC24B0ED9864016AAD6 /* JDTrackListAssembly.m in Sources */,
+				A49476170D0614D5D6BA2E4A /* JDTrackListViewController.m in Sources */,
+				F654A70D579AA3144A47E23D /* JDTrackListPresenter.m in Sources */,
+				790D1A81C6DFC36D3237E928 /* JDTrackListInteractor.m in Sources */,
+				DFCB4A2AA49D8D88687AEF9B /* JDTrackListRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +876,7 @@
 		};
 		8C1D02461EFFFBF800672D01 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF14950396409E52C0151EE7 /* Pods-AppleMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TWW7UPTWB8;
@@ -289,6 +889,7 @@
 		};
 		8C1D02471EFFFBF800672D01 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197143B46052FC90C2C71C5B /* Pods-AppleMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TWW7UPTWB8;
@@ -318,21 +919,9 @@
 				8C1D02471EFFFBF800672D01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		8C1D023A1EFFFBF800672D01 /* AppleMusic.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				8C1D023B1EFFFBF800672D01 /* AppleMusic.xcdatamodel */,
-			);
-			currentVersion = 8C1D023B1EFFFBF800672D01 /* AppleMusic.xcdatamodel */;
-			path = AppleMusic.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 8C1D02231EFFFBF800672D01 /* Project object */;
 }
