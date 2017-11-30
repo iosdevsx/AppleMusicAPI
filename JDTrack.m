@@ -11,7 +11,8 @@
 @implementation JDTrack
 
 +(JSONKeyMapper *)keyMapper {
-    return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{@"name":@"attributes.name"}];
+    return [[JSONKeyMapper alloc] initWithModelToJSONDictionary:@{@"name":@"attributes.name",
+                                                                  @"duration":@"attributes.durationInMillis"}];
 }
 
 @end

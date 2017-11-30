@@ -23,7 +23,7 @@
     NSMutableString *identifiers = [NSMutableString string];
     for (NSString *identifier in ids) {
         [identifiers appendString:[NSString stringWithFormat:@"%@,", identifier]];
-    }
+    }   
     
     NSString *idsResult = [identifiers substringToIndex:identifiers.length - 1];
     

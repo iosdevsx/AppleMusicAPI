@@ -13,5 +13,6 @@
 @interface JDTrack : JSONModel
 
 @property (nonatomic, strong) NSString <Optional> *name;
+@property (nonatomic, strong) NSNumber<Optional> *duration;
 
 @end

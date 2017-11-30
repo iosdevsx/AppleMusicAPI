@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
+@class JDAlbum;
+
 @protocol JDTrackListInteractorInput <NSObject>
+
+- (JDAlbum *)calculateDuration:(JDAlbum *)album;
 
 @end

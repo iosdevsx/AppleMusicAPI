@@ -35,7 +35,7 @@
         if (!artist) {
             [self.output albumsIdsFetchFailed:nil];
             return;
-        }
+        }   
         
         NSMutableArray *ids = [NSMutableArray array];
         for (JDAlbum *album in artist.albums) {

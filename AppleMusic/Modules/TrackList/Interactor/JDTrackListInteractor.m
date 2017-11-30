@@ -7,11 +7,18 @@
 //
 
 #import "JDTrackListInteractor.h"
-
+#import "JDAlbum.h"
 #import "JDTrackListInteractorOutput.h"
+
 
 @implementation JDTrackListInteractor
 
 #pragma mark - Методы JDTrackListInteractorInput
+
+- (JDAlbum *)calculateDuration:(JDAlbum *)album {
+    NSNumber *totalDuration = [album.tracks valueForKeyPath:@"@sum.duration"];
+    album.totalDuration = totalDuration;
+    return album;
+}
 
 @end

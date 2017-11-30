@@ -18,6 +18,7 @@
 @property (nonatomic, strong) NSString <Optional> *name;
 @property (nonatomic, strong) NSString <Optional> *artistName;
 @property (nonatomic, strong) NSArray <JDTrack, Optional> *tracks;
+@property (nonatomic, strong) NSNumber<Optional> *totalDuration;
 
 
 - (NSString *)formattedUrl;

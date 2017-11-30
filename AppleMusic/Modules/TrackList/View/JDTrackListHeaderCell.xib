@@ -41,12 +41,20 @@
                         <constraint firstAttribute="height" constant="1" id="3Ww-gw-x3W"/>
                     </constraints>
                 </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Длительность: 3 часа" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qz5-fb-QP8">
+                    <rect key="frame" x="120" y="67" width="145.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstItem="69o-nu-w2t" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0ba-nx-hyC"/>
                 <constraint firstItem="3rb-wj-eYG" firstAttribute="top" secondItem="tna-KW-g41" secondAttribute="bottom" constant="8" id="3G9-mE-jWf"/>
+                <constraint firstItem="Qz5-fb-QP8" firstAttribute="top" secondItem="3rb-wj-eYG" secondAttribute="bottom" constant="7.5" id="5gy-nl-DYh"/>
                 <constraint firstItem="tna-KW-g41" firstAttribute="top" secondItem="dYL-Py-0ef" secondAttribute="top" id="84M-H8-HxH"/>
+                <constraint firstItem="Qz5-fb-QP8" firstAttribute="leading" secondItem="3rb-wj-eYG" secondAttribute="leading" id="F3Z-GZ-XTd"/>
                 <constraint firstAttribute="trailing" secondItem="69o-nu-w2t" secondAttribute="trailing" id="NZI-6R-UFQ"/>
                 <constraint firstItem="3rb-wj-eYG" firstAttribute="leading" secondItem="dYL-Py-0ef" secondAttribute="trailing" constant="10" id="RJd-Rv-8UE"/>
                 <constraint firstItem="dYL-Py-0ef" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="VhL-W2-Lo0"/>
@@ -61,6 +69,7 @@
                 <outlet property="albumImage" destination="dYL-Py-0ef" id="UQY-HP-o6s"/>
                 <outlet property="albumName" destination="tna-KW-g41" id="KY5-bb-b4n"/>
                 <outlet property="artistName" destination="3rb-wj-eYG" id="imf-ld-pQq"/>
+                <outlet property="durationLabel" destination="Qz5-fb-QP8" id="Z3T-rX-Qtd"/>
             </connections>
             <point key="canvasLocation" x="24.5" y="-217"/>
         </view>

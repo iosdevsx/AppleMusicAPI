@@ -30,6 +30,7 @@
 
 - (void)didTriggerViewReadyEvent {
 	[self.view setupInitialState];
+    self.album = [self.interactor calculateDuration:self.album];
     [self.view updateTableForAlbum:self.album];
 }
 

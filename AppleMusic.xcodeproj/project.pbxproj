@@ -53,6 +53,7 @@
 		8C1D03DF1F00DF0C00672D01 /* JDTrackListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03DE1F00DF0C00672D01 /* JDTrackListDataSource.m */; };
 		8C1D03F01F011F1800672D01 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D03EF1F011F1800672D01 /* Localizable.strings */; };
 		8C1D03F11F011F8600672D01 /* JDSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C1D03F31F011F8600672D01 /* JDSearchBar.xib */; };
+		8C1D03FC1F012CDA00672D01 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1D03FB1F012CDA00672D01 /* NSString+Utils.m */; };
 		A317C9F98EB4505DAD4C1A4F /* libPods-AppleMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99BD0389A94EBC9199E14B5B /* libPods-AppleMusic.a */; };
 		A49476170D0614D5D6BA2E4A /* JDTrackListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E1A4389D5BF04EEBB208DDC8 /* JDTrackListViewController.m */; };
 		B6EADE97935889D6CB22BD37 /* JDAlbumsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7847CEECFBA88B3544B17219 /* JDAlbumsListViewController.m */; };
@@ -172,6 +173,8 @@
 		8C1D03F71F011FE100672D01 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
 		8C1D03F81F011FE100672D01 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		8C1D03F91F011FE100672D01 /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8C1D03FA1F012CDA00672D01 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		8C1D03FB1F012CDA00672D01 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
 		928A62C3F8D131177CF0D089 /* JDAlbumsListRouterInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListRouterInput.h; sourceTree = "<group>"; };
 		9522C1931FEF24D827521304 /* JDArtistsListInteractorInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDArtistsListInteractorInput.h; sourceTree = "<group>"; };
 		98B6D45A00D4007D1D412DD1 /* JDAlbumsListModuleInput.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JDAlbumsListModuleInput.h; sourceTree = "<group>"; };
@@ -454,6 +457,8 @@
 				8C1D03991F0001E900672D01 /* UIViewController+JD.m */,
 				8C1D03DA1F00DD3100672D01 /* UINavigationController+Style.h */,
 				8C1D03DB1F00DD3100672D01 /* UINavigationController+Style.m */,
+				8C1D03FA1F012CDA00672D01 /* NSString+Utils.h */,
+				8C1D03FB1F012CDA00672D01 /* NSString+Utils.m */,
 			);
 			name = Categories;
 			path = ..;
@@ -740,6 +745,7 @@
 				659114230117721C892A0E0B /* JDArtistsListViewController.m in Sources */,
 				8C1D03371EFFFE6500672D01 /* JDNetworking.m in Sources */,
 				8C1D03D91F00DA6A00672D01 /* JDAlbumsFlowLayout.m in Sources */,
+				8C1D03FC1F012CDA00672D01 /* NSString+Utils.m in Sources */,
 				8C1D038C1EFFFE8200672D01 /* JDMusicResponseObject.m in Sources */,
 				8C1D038B1EFFFE8200672D01 /* JDMusicService.m in Sources */,
 				8C1D03CB1F004C6400672D01 /* JDAlbumsDataSource.m in Sources */,

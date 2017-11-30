@@ -22,16 +22,16 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Royality (Demo Mix)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gd0-QI-JOm">
-                    <rect key="frame" x="28" y="26.5" width="309" height="18"/>
+                    <rect key="frame" x="28" y="26.5" width="314" height="18"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="plusIcon" translatesAutoresizingMaskIntoConstraints="NO" id="irj-3d-5J8">
-                    <rect key="frame" x="345" y="25" width="20" height="20"/>
+                    <rect key="frame" x="350" y="27.5" width="15" height="15"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="20" id="Dod-Cb-sha"/>
-                        <constraint firstAttribute="height" constant="20" id="iLV-tp-QI6"/>
+                        <constraint firstAttribute="width" constant="15" id="Dod-Cb-sha"/>
+                        <constraint firstAttribute="height" constant="15" id="iLV-tp-QI6"/>
                     </constraints>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="a7q-FA-Gwc">
